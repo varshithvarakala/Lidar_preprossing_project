@@ -1,0 +1,61 @@
+{
+  "raw_points_target": 121015,
+  "raw_points_source": 121151,
+  "sor_points": 116921,
+  "sor_removed": 4094,
+  "sor_removed_pct": 3.38,
+  "voxel_size": 0.3,
+  "downsampled_points": 19353,
+  "downsample_reduction_pct": 83.45,
+  "plane_equation": [
+    -0.0123,
+    0.0265,
+    0.9996,
+    1.6896
+  ],
+  "ground_points": 10026,
+  "nonground_points": 9327,
+  "icp_fitness": 0.9779,
+  "icp_inlier_rmse": 0.21113,
+  "icp_transformation": [
+    [
+      0.9999970449968523,
+      0.002183148816853884,
+      -0.0010695133504456194,
+      1.350275403414314
+    ],
+    [
+      -0.002184075474836809,
+      0.9999972399001039,
+      -0.000866029153781657,
+      -0.006253178346418888
+    ],
+    [
+      0.001067619727959492,
+      0.0008683624925414998,
+      0.9999990530669007,
+      0.015394424741694479
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "icp_translation_m": [
+    1.3503,
+    -0.0063,
+    0.0154
+  ],
+  "icp_translation_norm_m": 1.3504,
+  "timings_ms": {
+    "load": 57.51,
+    "sor": 356.63,
+    "voxel": 9.3,
+    "ground_seg": 40.81,
+    "normals": 134.11,
+    "icp": 111.46
+  },
+  "total_runtime_ms": 709.81
+}
